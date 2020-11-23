@@ -69,7 +69,12 @@ int main() {
             break;
             case 3:{
                 std::cout << "Ok. Deleting last element..." << std::endl;
-                vec.pop_back();
+                try {
+                    vec.pop_back();
+                } catch (std::exception& err) {
+                    std::cout << err.what() << std::endl;
+                    break;
+                }
                 std::cout << "Figure successfully deleted!" << std::endl;
                 break;
             }

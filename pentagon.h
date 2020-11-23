@@ -52,7 +52,7 @@ struct Pentagon {
     }
 
     static bool validate(const vertex_t *coords) {
-        return true;
+//        return true;
         T dist = square_distance(coords[0], coords[1]);
 
         for (int i = 0; i < 4; ++i) {
