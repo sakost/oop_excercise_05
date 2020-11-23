@@ -44,7 +44,7 @@ int main() {
                 continue;
             }
             case 1:{
-                std::cout << "Print all vertices in clockwise order(one point on row; each coordinate over the space):" << std::endl;
+                std::cout << "Print side of figure:" << std::endl;
                 Pentagon<int> pen;
                 std::cin >> pen;
                 vec.push_back(pen);
@@ -55,7 +55,7 @@ int main() {
                 std::cout << "Print an index where to insert figure:" << std::endl;
                 int index;
                 std::cin >> index;
-                std::cout << "Print all vertices in clockwise order(one point on row; each coordinate over the space):" << std::endl;
+                std::cout << "Print side of figure:" << std::endl;
                 Pentagon<int> pen;
                 try {
                     std::cin >> pen;
