@@ -1,0 +1,49 @@
+0	-	Help(this) message
+1	-	Push back figure
+2	-	Insert figure(by iterator)
+3	-	Pop back figure
+4	-	Erase figure(by iterator)
+5	-	Print
+6	-	I-ths figure
+7	-	Back
+8	-	Count_if
+9	-	Exit
+>>> Print side of figure:
+Figure successfully added!
+>>> Print side of figure:
+Figure successfully added!
+>>> Print an index where to insert figure:
+Print side of figure:
+Figure successfully added!
+>>> All figures:
+Side length: 4
+Side length: 2
+Side length: 3
+>>> Print side of figure:
+Figure successfully added!
+>>> Ok. Deleting last element...
+Figure successfully deleted!
+>>> All figures:
+Side length: 4
+Side length: 2
+Side length: 3
+>>> Print an index of figure which should be printed:
+Side length: 4
+>>> Last figure:
+Side length: 3
+>>> Print an index of figure which should be deleted:
+Figure successfully erased!
+>>> All figures:
+Side length: 4
+Side length: 3
+>>> Ok. Deleting last element...
+Figure successfully deleted!
+>>> Ok. Deleting last element...
+Figure successfully deleted!
+>>> Ok. Deleting last element...
+Index cannot be equal or below zero
+>>> Ok. Deleting last element...
+Index cannot be equal or below zero
+>>> Ok. Deleting last element...
+Index cannot be equal or below zero
+>>> Bye!

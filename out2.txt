@@ -1,0 +1,30 @@
+0	-	Help(this) message
+1	-	Push back figure
+2	-	Insert figure(by iterator)
+3	-	Pop back figure
+4	-	Erase figure(by iterator)
+5	-	Print
+6	-	I-ths figure
+7	-	Back
+8	-	Count_if
+9	-	Exit
+>>> Print side of figure:
+Figure successfully added!
+>>> Print an index where to insert figure:
+Print side of figure:
+Figure successfully added!
+>>> Unknown command. To get all available commands type 0 and press enter
+>>> All figures:
+Side length: 7
+Side length: 2
+>>> Print side of figure:
+Figure successfully added!
+>>> Print side of figure:
+Size of sides of figure must be above zero
+>>> Type the threshold for areas:
+Count of objects of less than 5 area is 2
+>>> All figures:
+Side length: 7
+Side length: 2
+Side length: 2
+>>> Bye!
