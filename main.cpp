@@ -46,8 +46,13 @@ int main() {
             case 1:{
                 std::cout << "Print side of figure:" << std::endl;
                 Pentagon<int> pen;
-                std::cin >> pen;
-                vec.push_back(pen);
+                try {
+                    std::cin >> pen;
+                    vec.push_back(pen);
+                } catch (std::exception& err) {
+                    std::cout << err.what() << std::endl;
+                    break;
+                }
                 std::cout << "Figure successfully added!" << std::endl;
             }
             break;

@@ -52,6 +52,9 @@ struct Pentagon {
     template <typename R, typename S>
     friend std::istream& operator>>(std::istream& in, Pentagon<R, S> &pentagon){
         in >> pentagon.m_side_length;
+        if(pentagon.m_side_length <= 0){
+            throw std::logic_error("Size of sides of figure must be above zero");
+        }
         return in;
     }
 };
